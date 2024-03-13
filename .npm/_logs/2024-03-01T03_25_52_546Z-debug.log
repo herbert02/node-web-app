@@ -1,0 +1,22 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'start' ]
+2 info using npm@6.14.4
+3 info using node@v10.19.0
+4 verbose stack Error: missing script: start
+4 verbose stack     at run (/usr/share/npm/lib/run-script.js:155:19)
+4 verbose stack     at /usr/share/npm/lib/run-script.js:63:5
+4 verbose stack     at /usr/share/nodejs/read-package-json/read-json.js:116:5
+4 verbose stack     at /usr/share/nodejs/read-package-json/read-json.js:436:5
+4 verbose stack     at checkBinReferences_ (/usr/share/nodejs/read-package-json/read-json.js:391:45)
+4 verbose stack     at final (/usr/share/nodejs/read-package-json/read-json.js:434:3)
+4 verbose stack     at then (/usr/share/nodejs/read-package-json/read-json.js:161:5)
+4 verbose stack     at /usr/share/nodejs/read-package-json/read-json.js:252:31
+4 verbose stack     at f (/usr/lib/nodejs/once/once.js:25:25)
+4 verbose stack     at Glob.<anonymous> (/usr/share/nodejs/glob/glob.js:151:7)
+5 verbose cwd /mnt/c/Users/jasmine/dops_labs
+6 verbose Linux 5.15.133.1-microsoft-standard-WSL2
+7 verbose argv "/usr/bin/node" "/usr/bin/npm" "start"
+8 verbose node v10.19.0
+9 verbose npm  v6.14.4
+10 error missing script: start
+11 verbose exit [ 1, true ]
